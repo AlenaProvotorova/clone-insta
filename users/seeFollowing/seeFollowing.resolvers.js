@@ -15,7 +15,6 @@ export default {
                 take: 5,
                 ...(lastId && {cursor: {id: lastId}})
             })
-            console.log('=====following=====',following );
             return {
                 ok: true,
                 following,
